@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aaaa</title>
+    <link rel="stylesheet" type="text/css" href="css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+</head>
+<body>
+<section class="hero">
+    <div class="hero-foot">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav-item nav-left is-brand" href="index.html" style="flex-basis: auto !important;">
+                    <img src="src/oxi_mercedes.jpg" alt="oxi-mercedes S.A" style="max-height: none">
+                </a>
+                <span class="nav-toggle" id="menu-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <div class="nav-menu nav-right" id="menu-list">
+                    <a class="nav-item is-active" href="">Home</a>
+                    <a class="nav-item" href="">Clientes</a>
+                    <a class="nav-item" href="">Catálogo</a>
+                    <a class="nav-item" href="">Pagos Online</a>
+                    <a class="nav-item" href="">Marca</a>
+                    <a class="nav-item" href="">Logística</a>
+                    <a class="nav-item" href="">Consultas</a>
+                    <a class="nav-item" href="">Acerca de nosotros</a>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</section>
+<div class="section">
+    <!--<div class="container"> -->
+    <div class="columns">
+        <div class="column is-2 is-hidden-mobile">
+            <aside class="menu">
+                <p class="menu-label">Productos</p>
+                <ul class="menu-list">
+                    <li><a>Herramientas</a></li>
+                    <li><a>Maquinarias</a></li>
+                    <li><a>Bulonería</a></li>
+                    <li><a>Artículos varios</a></li>
+                    <li><a>Seguridad Industrial</a></li>
+                    <li><a>Jardinería</a></li>
+                    <li><a>Pinturas</a></li>
+                    <li><a>Art. de importación</a></li>
+                    <li><a>Soldaduras</a></li>
+                </ul>
+            </aside>
+            <hr>
+            <p class="has-text-centered">Subscribase y reciba nuestras ofertas por mail.</p>
+            <div class="field">
+                <label class="label">Nombre</label>
+                <p class="control">
+                    <input class="input is-info" type="text">
+                </p>
+            </div>
+            <div class="field">
+                <label class="label">E-Mail</label>
+                <p class="control">
+                    <input class="input is-info" type="text">
+                </p>
+            </div>
+            <div class="field">
+                <p class="control">
+                    <label class="radio">
+                        <input type="radio" name="subscripcion">
+                        Subscribirse
+                    </label>
+                </p>
+                <p class="control">
+                    <label class="radio">
+                        <input type="radio" name="subscripcion">
+                        Dar de baja
+                    </label>
+                </p>
+            </div>
+            <div class="field has-addons-centered has-addons">
+                <p class="control">
+                    <button class="button is-info">Enviar</button>
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical">
+                    <div class="tile is-parent">
+                        <div class="tile is-child notification">
+                            <div class="field is-horizontal">
+                                <div class="field-label is-normal">
+                                    <label class="label">Ordenar por</label>
+                                </div>
+                                <div class="field-body">
+                                    <div class="field has-addons">
+                                        <p class="control">
+                                            <span class="select">
+                                                <select>
+                                                    <option>Nombre</option>
+                                                    <option>SKU</option>
+                                                    <option>Precio</option>
+                                                    <option>Últimos productos</option>
+                                                </select>
+                                            </span>
+                                        </p>
+                                        <p class="control">
+                                            <a class="button">
+                                                <span class="icon">
+                                                    <i class="fa fa-sort-amount-asc"></i>
+                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="field is-horizontal">
+                                        <div class="field-label is-normal">
+                                            <label class="label">cantidad</label>
+                                        </div>
+                                        <div class="field">
+                                            <p class="control">
+                                                <span class="select">
+                                                <select>
+                                                    <option>5</option>
+                                                    <option>10</option>
+                                                    <option>15</option>
+                                                    <option>20</option>
+                                                    <option>25</option>
+                                                    <option>30</option>
+                                                    <option>50</option>
+                                                </select>
+                                            </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical">
+                                <div class="tile is-child notification is-info">
+                                    <div class="field has-addons">
+                                        <p class="control is-expanded">
+                                            <input class="input" type="text" placeholder="Buscar Producto">
+                                        </p>
+                                        <p class="control">
+                                            <a class="button is-warning">
+                                            <span class="icon">
+                                                <i class="fa fa-search"></i>
+                                            </span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="tile is-child notification is-warning">
+                                    <p class="title is-4">Nombre del Producto</p>
+                                    <p class="subtitle">Caracteristicas Breves</p>
+                                    <p>Acá deberia ir algo, o nada, siempre se puede ser rebelde</p>
+                                </div>
+                                <div class="tile is-child notification is-danger">
+                                    <p class="title is-4">Nombre del Producto</p>
+                                    <p class="subtitle">Caracteristicas Breves</p>
+                                    <p>Acá deberia ir algo, o nada, siempre se puede ser rebelde</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical">
+                                <div class="tile is-child notification is-danger">
+                                    <p class="title is-4">Nombre del Producto</p>
+                                    <p class="subtitle">Caracteristicas Breves</p>
+                                    <p>Acá deberia ir algo, o nada, siempre se puede ser rebelde</p>
+                                </div>
+                                <div class="tile is-child notification is-warning">
+                                    <p class="title is-4">Nombre del Producto</p>
+                                    <p class="subtitle">Caracteristicas Breves</p>
+                                    <p>Acá deberia ir algo, o nada, siempre se puede ser rebelde</p>
+                                </div>
+                                <div class="tile is-child notification is-info" style="padding-right: 1.5rem">
+                                    <nav class="level">
+                                        <div class="level-left">
+                                            <div class="level-item">
+                                                <div class="field">
+                                                    <p class="control">
+                                                        <a class="button is-primary">
+                                                            <span class="icon">
+                                                                <i class="fa fa-chevron-left"></i>
+                                                            </span>
+                                                            <span>Anterior</span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="level-item">
+                                            <span>El vacio existencial</span>
+                                        </div>
+                                        <div class="level-right">
+                                            <div class="level-item">
+                                                <div class="field">
+                                                    <p class="control">
+                                                        <a class="button is-primary">
+                                                            <span>Siguiente</span>
+                                                            <span class="icon">
+                                                                <i class="fa fa-chevron-right"></i>
+                                                            </span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <div class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <img src="" alt="oxi-mercedes S.A">
+                    </div>
+                </div>
+
+                <div class="level-right">
+                    <small class="level-item">OXI Mercedes © 2008. Todos los derechos reservados.</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
